@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(page_title="CRUD Application", layout="wide")
-st.title("📊 SQLite CRUD Application")
+st.title("Student Data Storing Application")
 
 # ============================================================================
 # DATABASE SETUP AND FUNCTIONS
@@ -386,3 +386,4 @@ with col2:
 
 with col3:
     st.info(f"📁 Database: `{DATABASE_FILE}`")
+
